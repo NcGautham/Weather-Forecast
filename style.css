@@ -99,3 +99,36 @@ body{
 h3{
     color: #ffffff;
 }
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .card {
+        padding: 15px;
+    }
+
+    .search input {
+        width: 60%;
+        padding: 8px;
+    }
+
+    .search button {
+        padding: 8px;
+    }
+
+    .temp {
+        font-size: 1.5em;
+    }
+
+    .city {
+        font-size: 1.2em;
+    }
+
+    .details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details .col {
+        margin: 10px 0;
+    }
+}
